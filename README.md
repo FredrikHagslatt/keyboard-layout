@@ -31,36 +31,15 @@ The following characters are accessible using the `AltGr` key (often the right A
 To install the `FreppKey` custom keyboard layout, follow these steps:
 
 ### Windows
-1. Download the layout installer from the release section.
+1. Clone the repository.
 2. Run the installer and follow the on-screen instructions.
 3. After installation, go to **Settings > Time & Language > Language**.
 4. Select your language (e.g., English), click **Options**, and add the `FreppKey` keyboard layout.
 5. Remove other layouts if necessary.
 
-### macOS
-1. Download the layout file.
-2. Copy the layout file to `/Library/Keyboard Layouts` (for all users) or to `~/Library/Keyboard Layouts` (for a single user).
-3. Go to **System Preferences > Keyboard > Input Sources**.
-4. Click the `+` button and add the `FreppKey` layout.
-5. Remove other layouts if necessary.
-
-### Linux (X11)
-1. Download the layout file.
-2. Copy the layout file to `/usr/share/X11/xkb/symbols/`.
-3. Edit `/usr/share/X11/xkb/rules/evdev.xml` to include the new layout.
-4. Use `setxkbmap` to set the layout:
-    ```bash
-    setxkbmap -layout FreppKey
-    ```
-5. Add the layout to your desktop environment settings.
-
 ## Usage
 
-Once installed, you can switch to the `FreppKey` layout using your operating system's keyboard settings. Use the `AltGr` key in combination with the specified number keys to type the additional characters.
-
-## Contributors
-
-- [Your Name](https://github.com/your-github-profile)
+Use the `AltGr` key in combination with the specified number keys to type the additional characters.
 
 ## License
 
