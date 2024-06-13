@@ -1,46 +1,58 @@
-# FreppKey Custom Keyboard Layout
+# Custom Swedish QWERTY Keyboard Layout for Windows
 
-## Overview
+This repository contains a custom keyboard layout for Windows based on the standard Swedish QWERTY layout. The primary modification is the deactivation of the "dead key" mode for the `~` (tilde) and `^` (caret) characters. With this change, you only need to press the key once to type the character, rather than twice.
 
-The `FreppKey` keyboard layout is a customized variant of the US keyboard layout, designed to include additional characters for easier access to specific symbols used in the Swedish languages. This layout also removes the dead key functionality for certain keys to streamline typing.
+## Features
 
-## Layout Details
-
-### Base Layout
-- **Base:** US
-
-### Additions
-The following characters are accessible using the `AltGr` key (often the right Alt key):
-
-- `AltGr-2`: å
-- `AltGr-3`: ä
-- `AltGr-4`: ö
-- `AltGr-5`: Å
-- `AltGr-6`: Ä
-- `AltGr-7`: Ö
-
-### Tweaks
-- Removed dead keys functionality on the following keys:
-  - `~`
-  - `^`
-  - `'`
-  - `"`
+- **Based on Swedish QWERTY**: Retains the familiar layout for Swedish typists.
+- **No Dead Key Mode for `~` and `^`**: Simplifies typing these characters by removing the need for double keystrokes.
 
 ## Installation
 
-To install the `FreppKey` custom keyboard layout, follow these steps:
+Follow these steps to install the custom keyboard layout on your Windows machine:
 
-### Windows
-1. Clone the repository.
-2. Run the installer and follow the on-screen instructions.
-3. After installation, go to **Settings > Time & Language > Language**.
-4. Select your language (e.g., English), click **Options**, and add the `FreppKey` keyboard layout.
-5. Remove other layouts if necessary.
+1. **Download the Installer**:
+   - Clone the repository
+
+2. **Run the Installer**:
+   - Double-click the installation file for your system, install they keyboard layout.
+
+3. **Add the Keyboard Layout**:
+   - Open `Settings` > `Time & language` > `Language`.
+   - Select your language (e.g., "Svenska (Sverige)").
+   - Click `Options` > `Add a keyboard`.
+   - Find and select the custom keyboard layout from the list.
+
+4. **Switch Keyboard Layout**:
+   - You can switch between keyboard layouts by pressing `Alt` + `Shift` or `Win` + `Space`, or by clicking the language bar icon in the taskbar.
 
 ## Usage
 
-Use the `AltGr` key in combination with the specified number keys to type the additional characters.
+Once installed, the custom keyboard layout can be used just like the standard Swedish QWERTY layout. The only difference is the behavior of the `~` and `^` keys:
+
+- Press `~` once to type `~`.
+- Press `^` once to type `^`.
+
+This modification is designed to improve typing efficiency for users who frequently use these characters.
+
+## Uninstallation
+
+To remove the custom keyboard layout:
+
+1. **Remove the Keyboard Layout**:
+   - Open `Settings` > `Time & language` > `Language`.
+   - Select your language (e.g., "Svenska (Sverige)").
+   - Click `Options` > `Remove` next to the custom keyboard layout.
+
+2. **Uninstall the Layout**:
+   - Open `Control Panel` > `Programs` > `Programs and Features`.
+   - Find the custom keyboard layout in the list, select it, and click `Uninstall`.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
+
+
+---
+
+*Thank you for using the Custom Swedish QWERTY Keyboard Layout!*
