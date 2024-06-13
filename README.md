@@ -21,7 +21,7 @@ Follow these steps to install the custom keyboard layout on your Windows machine
    - Open `Settings` > `Time & language` > `Language`.
    - Select your language (e.g., "Svenska (Sverige)").
    - Click `Options` > `Add a keyboard`.
-   - Find and select the custom keyboard layout from the list.
+   - Find and select the custom keyboard layout "Freppan - No Dead keys" from the list.
 
 4. **Switch Keyboard Layout**:
    - You can switch between keyboard layouts by pressing `Alt` + `Shift` or `Win` + `Space`, or by clicking the language bar icon in the taskbar.
